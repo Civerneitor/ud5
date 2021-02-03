@@ -6,5 +6,4 @@ public class ejercicio3 {
 		String name = JOptionPane.showInputDialog("Introduce tu nombre: ");
 		System.out.println("Bienvenido "+name);
 	}
-
 }
