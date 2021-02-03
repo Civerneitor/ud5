@@ -3,8 +3,8 @@ public class ejercicio3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		double r = Double.parseDouble(JOptionPane.showInputDialog("Introduce el radio: "));
-		System.out.println("El área del circulo es: "+Math.PI*Math.pow(r, 2));
+		String name = JOptionPane.showInputDialog("Introduce tu nombre: ");
+		System.out.println("Bienvenido "+name);
 	}
 
 }
